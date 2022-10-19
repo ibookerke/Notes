@@ -1,4 +1,4 @@
-2<h2>Agile development</h2>
+<h2>Agile development</h2>
  - Program specification, design and implementation are inter-leaved 
  - The system is developed as a series of versions or increments with stakeholders involved in version specification and evaluation 
  - Frequent delivery of new versions for evaluation 
@@ -13,7 +13,7 @@
 	- Increments are delivered to customers every 2 weeks; 
 	- All tests must be run for every build and the build is only accepted if tests run successfully.
 
-<h4>Main principleso of Extreme Programming</h4>
+<h4>Main principles of Extreme Programming</h4>
 - **Incremental planning** - Requirements are recorded on story cards and the stories to be
 included in a release are determined by the time available and their relative priority.
 - **Small releases** - Releases of the system are frequent and incrementally add functionality to the first release

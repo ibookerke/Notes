@@ -1,0 +1,1 @@
+Observed Variable or Evidence variable - Agent knows certain things about the state of the world (e.g., sensor readings or symptoms)
