@@ -30,12 +30,14 @@ E.g. When rolling dies, the function Odd(x) will be showing if x is odd or not.
 	- e.g. Temp < 22.0
 
 <hr>
+
 ## Marginal Distribution
 - Marginal distributions are sub-tables which eliminate variables
 - Marginalization (summing out): Combine collapsed rows by adding
 
 ![[Pasted image 20221018204146.png]]
 <hr>
+
 ## Conditional probability
 
 Probability of a if b happened

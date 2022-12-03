@@ -1,0 +1,1 @@
+calculating some useful quantity from a joint probability distribution
