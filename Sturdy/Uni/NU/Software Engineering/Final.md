@@ -269,7 +269,7 @@ What part of WSDL - service interface
 How part of WSDL - binding that maps abstract interfaces to concrete protocols
 Where part of WSDL - location of specific service(URL)
 
-REST - Representational State Transfer.
+REST - Representational State Transfer(HTTP and HTTPS based).
 
 ![[Pasted image 20221203073816.png]]
 
@@ -277,3 +277,192 @@ REST - Representational State Transfer.
 - Utility services that implement general functionality used by different business processes.
 - Business services that are associated with a specific business function e.g., in a university, student registration.
 - Coordination services that support composite processes such as ordering.
+
+Task-oriented services are those associated with some activity.
+Entity-oriented services are like objects. They are associated with a business entity such as a job application form.
+
+## Constructing by composition
+
+- Formulate outline workflow
+- Discover services
+- Select possible services
+- Refine workflow
+- Create workflow program
+- Test completed service or application
+
+
+# Chapter 19 - Systems Engineering
+
+Types of systems
+- Technical computer based systems
+- Sociotechnical systems(including people)
+
+System engineering stages:
+- Conceptual design
+- Procurement or acquisition
+- Development
+- Operation
+
+![[Pasted image 20221203080449.png]]
+
+Socio-technical system characteristics
+
+### Emergent Propperties 
+- Properties of the system as a whole rather than properties that can be derived from the properties of components of a system
+- Emergent properties are a consequence of the relationships between system components
+E.g. Reliability, Repairability, Volume(space occupied), Secutiry
+
+They can be functional(do something) and non-functional(provide/maintain something)
+
+<hr>
+
+Software systems are deterministic(like in AI); systems that include humans are non-deterministic.
+
+<hr>
+
+**Wicked problem** is a problem that is difficult or impossible to solve because of incomplete, contradictory, and changing requirements that are often difficult to recognize.
+
+### Conceptual design
+- Investigate the feasibility of an idea and develop that idea to create an overall vision of a system.
+- Conceptual design precedes and overlaps with requirements engineering.
+
+It have 3 stages:
+- Concept Formulation
+- Problem understanding
+- System proposal development
+- Feasibility Study
+- System structure development
+- System vision document(Document the results of the conceptual design in a readable, non-technical way)
+
+Я уверен он эту залупу попросят нарисовать
+
+![[Pasted image 20221203082515.png]]
+
+
+
+
+# Chapter 20 - System of Systems
+
+A system of systems is a system that contains two or more independently managed elements.
+## Essential characteristics of SoS
+- Operational independence of system elements
+- Managerial independence of system elements
+- Evolutionary development
+- Emergence of system characteristics
+- Geographic distribution of system elements
+- Data intensive
+- Heterogeneity(неоднородность)
+
+System complexity defined by number and types of relationships between SoS elements.
+Complexity types:
+- Technical complexity
+- Magagerial complexity
+- Governance complexity(laws related)
+
+SoS classification 
+- Directed SoS - owned by single organizations and works with systems owned by this organization
+- Collaborative SoS - system where is not central authority. Elemnts of systems are owned and governed by different organizations
+- Virtual systems - no central governance and the participants may not agree on the overall purpose of the system.
+
+Other:
+- Organizational SoS - governance and management lies within same organization
+- Federated SoS - voluntury participating(owners are represented)
+- SoS coallitions - no formal governance mechanisms but organizations are involved
+
+
+## Reductionism 
+- The approach that has been the basis of complexity management in software engineering.
+- Reductionism is based on the assumption that any system is made up of parts or subsystems.
+- Top-down design, where you start with a very high-level model of a system and break this down to its components is a reductionist approach.
+- Effective on systems with small relationship number
+
+Architectural frameworks such as MODAFand TOGAF have been suggested as a means to support the architectural design of systems of systems.
+
+### TOGAF - arch framework
+- its heart is Architectural Development Method(ADM)
+
+## Architecture types
+
+### Systems as data feeds
+- There is a principal system that requires data of different types.
+- his data is available from other systems and the principal system queries these systems to get the data required.
+- Generally, the systems that provide data do not interact with each other.
+- This pattern is often observed in organizational or federated systems where some governance mechanisms are in place
+- This architecture is an appropriate architecture to use when it is possible to identify entities in a unique way and create relatively simple queries about these entities
+
+### Systems in Container
+- Systems in a container are systems of systems where one of the systems acts as a virtual container and provides a set of common services such as an authentication and a storage service.
+- Conceptually, other systems are then placed into this container to make their functionality accessible to system users.
+
+
+### Trading Systems
+- Trading systems are systems of systems where there is no single principal system but processing may take place in any of the constituent systems.
+- The systems involved trade information amongst themselves. There may be one-to-one or one-to-many interactions between these systems.
+
+
+
+# Chapter 21 - Real Time Software Engineering
+
+Computers controls other machiens and called embedded. Such systems shouyd respond in Real Time.
+
+Correcteness depends not only on output but on time elspased too.
+
+- **soft real-time system** is a system whose operation is degraded if results are not produced according to the specified timing requirements.
+- **hard real-time system** is a system whose operation is incorrect if results are not produced according to the timing specification
+
+## Reactive systems
+
+Real-time systems are often considered to be reactive systems. Given a stimulus, the system must produce areaction or response within a specified time
+
+- Periodic stimuli - occur at predictable time intervals
+- Aperiodic stimuli -  occur at unpredictable times
+
+![[Pasted image 20221203091213.png]]
+
+Architectural patterns of Embedded systems
+- Observe and React - This pattern is used when a set of sensors are routinely monitored and displayed.
+![[Pasted image 20221203091620.png]]
+- Environmental Control - This pattern is used when a system includes sensors, which provide information about the environment and actuators that can change the environment
+![[Pasted image 20221203091636.png]]
+- Process Pipeline - This pattern is used when data has to be transformed from one representation to another before it can be processed.
+![[Pasted image 20221203091646.png]]
+
+Time analysis includes
+- Deadlines
+- Frequency 
+- Execution time
+
+
+## OS's
+There are Real Time Operatines systmes working with RTS.
+They include:
+- Real-time clock
+- Interrupt handler (manages aperiodic requests)
+- Scheduler
+- Resource manager
+- Dispatcher(starts process execution)
+- Configuration manager
+- Fault Manager
+
+![[Pasted image 20221203092042.png]]
+
+# Chapter 22 - Project Management
+
+Risk Classification:
+- Project risks (schedule and resources)
+- Product Risks (product perfomance)
+- Business Risks (affect organization developing)
+
+Risk Types
+- Technology risks.
+- Organizational risks.
+- People risks.
+- Requirements risks.
+- Estimation risks
+
+Worker Types:
+- Task-oriented - everyone wants to do their own thing;
+- Self-oriented - everyone wants to be the boss;
+- Interaction-oriented - too much chatting, not enough work.
+
+
