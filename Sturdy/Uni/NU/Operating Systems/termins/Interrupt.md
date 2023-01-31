@@ -1,0 +1,1 @@
+An interrupt is **a signal emitted by hardware or software when a process or an event needs immediate attention**. It alerts the processor to a high-priority process requiring interruption of the current working process.
