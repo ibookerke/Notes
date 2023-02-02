@@ -76,9 +76,7 @@ Safety and dependability cases are structured documents that set out detailed ar
 
 ## Threat types
 - Interception threats that allow an attacker to gain access to an asset.
-- The level of protection that is required for different types of asset
-- The responsibilities of individual users, managers and the organization
-- ruption threats that allow an attacker to make part of the system unavailable.
+- Interruption threats that allow an attacker to make part of the system unavailable.
 - Modification threats that allow an attacker to tamper with a system asset.
 - Fabrication threats that allow an attacker to insert false information into a system.
 
