@@ -1,0 +1,1 @@
+Multiplexing, or muxing, is **a way of sending multiple signals or streams of information over a communications link at the same time in the form of a single, complex signal**.

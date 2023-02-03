@@ -1,0 +1,1 @@
+A Request for Comments (RFC) is a formal document from the Internet Engineering Task Force (IETF) that contains specifications and organizational notes about topics related to the internet and computer networking, such as routing, addressing and transport technologies.
