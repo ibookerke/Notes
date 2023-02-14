@@ -1,0 +1,1 @@
+The Simple Mail Transfer Protocol is an Internet standard communication protocol for electronic mail transmission
