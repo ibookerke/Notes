@@ -58,8 +58,8 @@ Layered internet protocol stack
 	- Network-layer protocol transfers transport-layer segment [Ht | M] from one host to another, with transport-layer header Hn
 	- encapsulates transport layer to create ==datagram==
 - Link
-	- protocol transfers datagram [Hn| [Ht |M] from host to neighboring host
-	- encapsulates network datagram [Hn| [Ht |M], with link-layer header Hl  to create a link-layer ==frame==
+	- protocol transfers datagram [ Hn | [Ht | M] ] from host to neighboring host
+	- encapsulates network datagram [ Hn | [Ht | M] ], with link-layer header Hl  to create a link-layer ==frame==
 
 
 ![[Pasted image 20230203154312.png]]
