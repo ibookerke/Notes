@@ -1,0 +1,1 @@
+The **Checksum** is an error detection technique that detects an error in a transmitted message by appending redundant bits in the message.

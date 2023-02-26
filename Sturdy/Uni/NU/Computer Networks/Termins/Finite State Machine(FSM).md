@@ -1,0 +1,1 @@
+A finite state machine (FSM) is a mathematical model of computation usually represented as a graph, with a finite number of nodes describing the possible states of the system, and a finite number of arcs representing the transitions that do or do not change the state, respectively.

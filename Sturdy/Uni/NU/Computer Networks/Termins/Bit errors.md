@@ -1,0 +1,1 @@
+In digital transmission, the number of bit errors is **the number of received bits of a data stream over a communication channel that have been altered due to noise, interference, distortion or bit synchronization errors**.

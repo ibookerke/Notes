@@ -1,0 +1,1 @@
+**Negative Acknowledgements** - receiver explicitly tells sender that pkt had errors 
