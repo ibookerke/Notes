@@ -1,0 +1,1 @@
+It is a period when the process is being executed in the CPU

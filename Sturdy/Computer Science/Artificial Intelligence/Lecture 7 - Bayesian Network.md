@@ -63,7 +63,7 @@ Global semantics defines the full joint distribution as the product of the local
 Local semantics: each node is conditionally independent of its nondescendants given its parents
 ![[Pasted image 20221103142055.png]]
 
-## [[Markov blanket]]
+## [[Markov Blanket]]
 
 ## Constructing Bayesian networks 
 Need a method such that a series of locally testable assertions of conditional independence guarantees the required global semantics:

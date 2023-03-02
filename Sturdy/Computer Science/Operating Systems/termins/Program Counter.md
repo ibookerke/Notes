@@ -1,0 +1,1 @@
+The program counter (PC) is **a [[Register]] that manages the memory address of the instruction to be executed next**. The address specified by the PC will be + n (+1 for a 1-word instruction and +2 for a 2-word instruction) each time one instruction is executed.

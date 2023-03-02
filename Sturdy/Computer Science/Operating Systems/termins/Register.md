@@ -1,0 +1,2 @@
+
+A register is **a part of the processor that can hold a bit pattern**. On the MIPS, a register holds 32 bits. There are many registers in the processor, but only some of them are visible in assembly language. The others are used by the processor in carrying out its operations.

@@ -1,0 +1,1 @@
+The basic idea of the priority inheritance protocol is that **when a job blocks one or more high-priority jobs, it ignores its original priority assignment and executes its critical section at an elevated priority level**.
