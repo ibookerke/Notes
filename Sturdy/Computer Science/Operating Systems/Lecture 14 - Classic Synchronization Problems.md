@@ -9,7 +9,6 @@ It is also may be implemented using [[Semaphore]]s
 		1. m([[MUTEX]]): A binary semaphore which is used to acquire and release lock.
 		2. empty: A counting semaphore contains the empty slots of the buffer. Since initially all the slots are empty; therefore, the value of empty = total number of slots in buffer.
 		3. full: A counting semaphore contains the filled slots of the buffer. Since initially no slot is filled; therefore, the value of full = 0.
-		
 		![[Pasted image 20230301165112.png]]
 - ### Reader-Writers Problem
 	- Here, we can use two [[Semaphore]]s and an integer variable, as follows:

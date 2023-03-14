@@ -36,13 +36,13 @@ processes, since we are just choosing a new process for execution from queue.
 Such scheduling scheme is called ==non-preemptive==/cooperative
 The process volunteerly gives up the CPU since their execution ended.
 
-However there are some for 
+However there are some for:
 2. running -> ready
-3. wairing -> ready
+3. waiting -> ready
 Scheduling scheme for this circumstances are called ==preemptive==. So there are processes when CPU can be taken away from the processes even before it has completed its execution
 
 ## Scheduling criteria
-The criterias the CPU takes into consideration while how to schedult procceses
+The criterias the CPU takes into consideration while how to schedule procceses
 -   CPU utilization – keep the CPU as busy as possible
 -   Throughput - # of processes that complete their execution per time unit
 -   Turnaround time - amount of time to execute a particular process

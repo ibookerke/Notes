@@ -4,7 +4,7 @@
 
 Multiple parts
 - The program code, also called ==text section== 
-- Current activity including ==program counter==, processor registers 
+- Current activity including ==[[Program Counter]]==, processor [[Register]]s 
 - ==Stack== containing temporary data 
 	- Function parameters, return addresses, local variables 
 - ==Data section== containing global variables 
@@ -12,7 +12,7 @@ Multiple parts
 
 ### Heap vs Stack
 - Stack has an ordered and structurized data
-- Heap is sotring data in a pile
+- Heap is storing data in a pile
 
 //TODO 
 Escape Analysis during allocation
@@ -38,7 +38,7 @@ As a process executes, it changes **state**
 
 ## Process Control Block([[PCB]])
 
-Information associated with each process (also called task control block) 
+Information associated with each process (also called ==task control block==) 
 - Process state – running, waiting, etc 
 - [[Program Counter]] – location of instruction to next execute 
 - CPU registers – contents of all process-centric [[Register]]s 
@@ -58,7 +58,7 @@ Information associated with each process (also called task control block)
 	- Some hardware provides multiple sets of registers per CPU -> multiple contexts loaded at once
 
 ## Process Scheduling
-- Maximize CPU usage, quickly switch processes for time-sharing 
+- Maximize CPU usage, quickly switch processes for [[Timesharing(Multitasking)]] 
 - Process scheduler selects among available processes for next execution on the CPU(s) 
 - Maintains scheduling queues of processes 
 	- Job queue – set of all processes in the system 

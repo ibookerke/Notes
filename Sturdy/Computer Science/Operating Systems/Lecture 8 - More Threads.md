@@ -18,6 +18,7 @@
 - A copy of the entire address space using a single thread (the one that invoked fork() ) is created
 - May lead to [[Deadlock]]s!
 - Use it with caution!
+- When progress in waiting in while loop it is called a ==Spinlock==
 
 ## Threads at kernel space
 - Thread creation is done through clone() system call -> wrapped in [[glibc]] as a function 

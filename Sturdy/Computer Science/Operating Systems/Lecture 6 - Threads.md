@@ -1,3 +1,4 @@
+
 ## Threads
 - A lightweight process within a process (in the same process address space) 
 - ==Process creation== is heavy-weight while thread creation is light-weight 
