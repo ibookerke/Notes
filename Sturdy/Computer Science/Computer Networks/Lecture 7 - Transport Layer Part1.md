@@ -8,6 +8,7 @@
 	- **rcs side**
 		- reasembles segments into messages
 		- passes assembled messages to app layer
+		
 ![[Pasted image 20230215164035.png]]
 
 
