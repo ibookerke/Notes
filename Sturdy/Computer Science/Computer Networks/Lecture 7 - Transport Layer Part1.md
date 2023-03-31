@@ -38,7 +38,7 @@ UDP:
 - When host recieves UDP segments:
 	- check destination port# in segment
 	- directs UDP segment to socket with that port#
-- IP datagrams with same dest. port#, but different source IP address and/or source port numbers will be directed to same same socket at dets
+- IP datagrams with same dest. port#, but different source IP address and/or source port numbers will be directed to same socket at dest
 
 ## Connection-oriented demux
 - Tcp socket identified by 4-tuple
@@ -67,7 +67,7 @@ Example for threaded server
 #### UDP use:
 - streaming multimedia apps (loss tolerant, rate sensitive)
 - DNS
-- SNMP
+- [[SNMP]]
 
 #### Reliable transfer over UDP
 - add reliability at application layer 

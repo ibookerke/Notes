@@ -12,6 +12,7 @@ In order to achieve reliability we'll:
  - consider only [[Unidirectional Data Tranfer]]
 	 - but control info will flow on both directions
 - use [[Finite State Machine(FSM)]] to specify sender, receiver
+
 ![[Pasted image 20230226115010.png]]
 
 # Channel Reliability
@@ -85,7 +86,7 @@ Sender sends one packet, then waits for receiver response
 
 ![[Pasted image 20230226160756.png]]
 
-## rdt3.0: channels with errrors and loss
+## rdt3.0: channels with errors and loss
 
 ### New assumption
 Underlying channel can also lose packets (data, [[ACK]]s) 
@@ -108,6 +109,6 @@ Underlying channel can also lose packets (data, [[ACK]]s)
 ## Pipelined protocols
 pipelining: sender allows multiple, “in-flight” , yetto-be-acknowledged pkts 
 - range of sequence numbers must be increased 
-- buffering at sender and/or receive
+- buffering at sender and/or receiver
 
 3-packet pipelining increases utilization by a factor of 3!

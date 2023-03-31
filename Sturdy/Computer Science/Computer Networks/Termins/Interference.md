@@ -1,0 +1,1 @@
+In physics, interference is a phenomenon in which two waves combine by adding their displacement together at every single point in space and time, to form a resultant wave of greater, lower, or the same amplitude.

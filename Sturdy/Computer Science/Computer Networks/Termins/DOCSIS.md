@@ -1,0 +1,1 @@
+**Data Over Cable Service Interface Specifications** (abbreviated as DOCSIS) is a globally-recognized telecommunications standard that enables high-bandwidth data transfer via existing coaxial cable systems that were originally used in the transmission of cable television program signals (CATVS)
