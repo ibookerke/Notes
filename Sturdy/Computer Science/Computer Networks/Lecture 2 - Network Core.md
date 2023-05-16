@@ -20,7 +20,7 @@ When the packtes arrives to access networks faster than they could be handled th
 
 Packet queuing and loss: - if arrival rate (in bps) to link exceeds transmission rate (bps) of link for some period of time:
 - packets will queue, waiting to be transmitted on output link
-- packets can be dropped (lost) if memory (buffer) in router fills up
+- packets can be ![[Pasted image 20230203133721.png]]dropped (lost) if memory (buffer) in router fills up
 
 ## Cirquit switching
 end-end resources allocated to, reserved for “call” between source and destination
@@ -49,7 +49,7 @@ Cirquirt switching - reserved resources
 How to connect millions of [[ISP]]s together? 
 1) Create multiple global competitive ISPs
 2) Connect them with [[Internet exchange point(IXP)]]
-3) Make reional ISPs that connect to global
+3) Make regional ISPs that connect to global
 4) and content provider networks  (e.g., Google, Microsoft,  Akamai) may run their own network, to bring services, content close to end users
 ![[Pasted image 20230203140119.png]]
 

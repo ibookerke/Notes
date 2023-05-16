@@ -11,7 +11,7 @@
 	- slotted ALOHA 
 	- ALOHA 
 	- CSMA,
-	- CSMA/CD, 
+	- [[CSMA-CD]] 
 	- CSMA/CA
 
 ## Slotted ALOHA
@@ -110,7 +110,7 @@ if Colision
 * In particular, the master node first sends a message to node 1, saying that it (node 1) can transmit up to some maximum number of frames. 
 * After node 1 transmits some frames, the master node tells node 2 it (node 2) can transmit up to the maximum number of frames. 
 * The master node can determine when a node has finished sending its frames by observing the lack of a signal on the channel.
-- The procedure continues in this manner, with the master node polling each of the nodes in a cyclic manner.
+* The procedure starts with the master node polling each of the nodes in a cyclic manner.
 - The polling protocol eliminates the collision.
 - This allows polling to achieve a much higher efficiency. 
 - The first drawback is that the protocol introduces a polling delay—the amount of time required to notify a node that it can transmit. 
@@ -124,14 +124,12 @@ if Colision
 		- latency 
 		- single point of failure (token)
 
-
 * A station is authorized to send data when it receives a special frame called a token. 
 * Here there is no master node. 
 * A small, special-purpose frame known as a token is exchanged among the nodes in some fixed order. 
 * When a node receives a token, it holds onto the token only if it has some frames to transmit; otherwise, it immediately forwards the token to the next node. 
 * If a node does have frames to transmit when it receives the token, it sends up to a maximum number of frames and then forwards the token to the next node. 
-* Token passing is decentralized and highly efficient. But it has problems as well. 
-
+* Token passing is decentralized and highly efficient. But it has problems as well(such as lossing token -> crash)tralized and highly efficient. But it has problems as well(such as lossing token -> crash)
 ![[Pasted image 20230330211639.png]]
 
 # Cable Access Network

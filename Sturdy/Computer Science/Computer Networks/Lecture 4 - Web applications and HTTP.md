@@ -57,7 +57,8 @@ UDP:
 ### Persistence
 
 #### non-persistent HTTP
-- At most one object sent over TCP connection • connection then closed 
+- At most one object sent over TCP connection 
+- connection then closed 
 - Downloading multiple objects required multiple connections
 - Respone time = 2 [[RTT]] + file transmission time
 <hr>

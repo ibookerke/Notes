@@ -84,8 +84,8 @@ System must provide mechanisms for:
 	- Parent and children execute concurrently 
 	- Parent waits until children terminate
 
-There are two ways of creating child process
-- Address space 
+
+- There are two ways of creating child process
 	- Child duplicate of parent: `dubplicates the parent's code and `[[Program Counter]]` and execute it` 
 	- Child has a program loaded into it:  `use another program and executes it, however it is still child of parent process`
 - UNIX examples 
@@ -102,7 +102,7 @@ There are two ways of creating child process
 	- Process’ resources are deallocated by the operating system 
 - Parent may terminate the execution of children processes using the abort() system call. Some reasons for doing so: 
 	- Child has exceeded allocated resources 
-	- Task assigned to child is no longer required 
+	- Task assigneяd to child is no longer required 
 	- The parent is exiting and the operating systems does not allow a child to continue if its parent terminates
 
 Some operating systems do not allow a child to exist if its parent has terminated. If a process terminates, then all its children must also be terminated. 

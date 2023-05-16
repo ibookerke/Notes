@@ -7,7 +7,7 @@
 	- e.g. `renice -5  765265`
 
 ### Scheduling policies in Linux
-- `chrt -m` (SCHED_OTHER = default one) -  **sets or retrieves the real-time scheduling attributes of an existing PID, or runs command with the given attribute**
+	- `chrt -m` (SCHED_OTHER = default one) -  **sets or retrieves the real-time scheduling attributes of an existing PID, or runs command with the given attribute**
 
 ![[Pasted image 20230301123543.png]]
 

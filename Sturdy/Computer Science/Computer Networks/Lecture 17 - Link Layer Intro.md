@@ -108,3 +108,4 @@ three broad classes:
 ## Channel partitioning MAC protocols
 - [[FDMA]]
 - [[TDMA]]
+

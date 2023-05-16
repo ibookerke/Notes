@@ -1,6 +1,6 @@
 ## OpenMP
 - An API for Writing Multithreaded Applications
-- Non-POSIX library
+- Non-[[POSIX]] library
 - Developed and maintained by a non-profit consortium 
 - C/C++/Fortran 
 - Cross platform (Linux, Windows, MacOS etc.)

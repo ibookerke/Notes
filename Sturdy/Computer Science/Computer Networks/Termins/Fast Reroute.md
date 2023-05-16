@@ -1,0 +1,1 @@
+Fast Reroute is a [[MPLS]] and IP resiliency technology to provide fast traffic recovery upon link or router failures for mission critical services

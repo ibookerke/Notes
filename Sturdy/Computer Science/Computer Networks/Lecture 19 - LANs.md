@@ -8,7 +8,7 @@ Each adapter on [[LAN]] has unique LAN address
 [[MAC address]] allocation administered by IEEE
 - manufacturer buys portion of MAC address space (to assure uniqueness)
 - analogy:
-	- [[MAC address]]: like Social Security Number
+	- MAC address: like Social Security Number
 	- IP address: like postal address
 - MAC flat address ➜ portability
 	- can move LAN card from one LAN to another
@@ -56,10 +56,10 @@ indicates higher layer protocol (mostly IP but others possible, e.g., Novell IPX
 - ==connectionless== - no handshaking between sending and receiving [[NIC]]s
 - ==unreliable== - receiving [[NIC]] doesn't send acks or nacks to sending [[NIC]]
 	- data in dropped frames recovered only if initial sender uses higher layer rdt (e.g., TCP), otherwise dropped data lost
-- Ethernet’s MAC protocol: unslotted CSMA/CD (check [[Lecture 18 - Link Layer MAC]]) with binary backoff
+- Ethernet’s MAC protocol: unslotted [[CSMA-CD]] (check [[Lecture 18 - Link Layer MAC]]) with binary backoff
 
 ## 802.3 Ethernet standards: link & physical layers
-many different Ethernet standards
+many different Ethernet standarts
 - common MAC protocol and frame format
 - different speeds: 2 Mbps, 10 Mbps, 100 Mbps, 1Gbps, 10 Gbps, 40 Gbps
 - different physical layer media: fiber, cable
@@ -98,7 +98,7 @@ when frame received at switch:
 ```Go
 if entry found for destination {
 	if destination on segment from which frame arrived {
-		Drop from     
+		Drop frame     
 	} else{
 		forward frame on interface indicated by entry
 	}      

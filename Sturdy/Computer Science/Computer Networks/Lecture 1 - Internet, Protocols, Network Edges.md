@@ -46,7 +46,7 @@ Wireless local area networks (WLANs)
 Wide-area cellular access networks
 - provided by mobile, cellular network operator (10’s km)
 - 10’s Mbps
-- 4G cellular networks (5G coming)
+- 4G cellular networks
 
 ### Enterprise Networs
 Ethernet: wired access at 100Mbps, 1Gbps, 10Gbps

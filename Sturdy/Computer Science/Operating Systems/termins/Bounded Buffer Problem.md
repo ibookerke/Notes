@@ -9,3 +9,6 @@
 - The producer must not insert data when the buffer is full.
 - The consumer must not remove data when the buffer is empty.
 - The producer and consumer must not insert/remove data simultaneously.
+
+
+Solution in [[Lecture 14 - Classic Synchronization Problems]]

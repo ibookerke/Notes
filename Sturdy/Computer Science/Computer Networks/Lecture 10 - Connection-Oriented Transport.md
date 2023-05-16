@@ -72,7 +72,8 @@ before exchanging data, sender/receiver “handshake” :
 ![[Pasted image 20230327134828.png]]
 
 ### TCP Closing connection
-- Client, server each close their side of connection • send TCP segment with FIN bit = 1 
+- Client, server each close their side of connection 
+- send TCP segment with FIN bit = 1 
 - respond to received FIN with ACK 
 	- on receiving FIN, ACK can be combined with own FIN 
 - simultaneous FIN exchanges can be handled

@@ -40,11 +40,17 @@ Switch(es) supporting [[VLAN]]s capabilities can be configured to define multipl
 	- MPLS forwarding table distinct from IP forwarding tables 
 - flexibility: MPLS forwarding decisions can differ from those of IP 
 	- use destination and source addresses to route flows to same destination differently (traffic engineering) 
-	- re-route flows quickly if link fails: pre-computed backup paths (useful for VoIP)
+	- re-route flows quickly if link fails: pre-computed backup paths (useful for [[VoIP]])
 
 ![[Pasted image 20230331013916.png]]
+
+[[Fast Reroute]]
 
 ## MPLS forwarding tables
 ![[Pasted image 20230331014639.png]]
 
 # Data center Networking
+![[Pasted image 20230423132538.png]]
+![[Pasted image 20230423132551.png]]
+
+# [[A day in the life of web request]]
