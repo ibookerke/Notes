@@ -6,3 +6,6 @@
 	- https://go.dev/blog/defer-panic-and-recover
 - More about Slices
 	- https://go.dev/blog/slices-intro
+	  
+- Go interfaces
+	- i tap

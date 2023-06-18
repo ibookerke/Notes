@@ -1,0 +1,1 @@
+The flag package in Go is used **to develop a UNIX system-like program that accepts command-line arguments to manipulate its behavior in some form**. In Golang, flag is a built-in package shipped with Go standard library.
