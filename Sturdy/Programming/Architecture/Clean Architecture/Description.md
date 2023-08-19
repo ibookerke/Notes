@@ -14,13 +14,3 @@ The overriding rule that makes this architecture work is _The Dependency Rule_.
 
 By the same token, data formats used in an outer circle should not be used by an inner circle, especially if those formats are generate by a framework in an outer circle. We don’t want anything in an outer circle to impact the inner circles.
 
-
-
-- Насчет покупки фиатом надо уточнить, чтобы пользователь не ебался, с покупкой юсдт и толькьо потом покупка токена
-- Сделать возможность сделать рефанд части своего стейка другим пользукам
-- Возможность сделать так, чтобы деньги передавались какому-то сервису и крутились
-- Уведомить юристов насчетных валютных рисков
-- Сделать лимиты по срокам выкупки
-- В случае окончания срока - устраивать голосовалку с предложением продления
-- 17 июля 15:00-16:00 - презентация изменений
-
