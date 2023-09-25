@@ -1,0 +1,2 @@
+- It is always a [[Symmetric matrix]]
+- it has only positive [[Eigenvalue]]s

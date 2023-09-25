@@ -16,15 +16,19 @@ grid()
 ![[Pasted image 20230822181227.png]]
 ```python
 v = sp.array([[1],[0.5]]) 
-v.shape (2, 1) 
-v.T.shape (1, 2)
+v.shape #(2, 1) 
+v.T.shape #(1, 2)
 ```
-
+  
 # Vector Operations
+## Scaling vector
+
 ![[Pasted image 20230822181443.png]]
+
 ```python
-v = sp.array([[1.],[0.5]]) 
-v * 2 array([[ 2.], [ 1.]])
+v = np.array([[1.],[0.5]]) 
+u = np.array([[ 1.], [ 2.]])
+u * v # array([[1.], [1.]])
 ```
 
 ## Vector summation 
@@ -38,15 +42,22 @@ vector from the same space can be added to each other
 ```
 
 ## Scalar (Inner)/dot Product
-The scalar product computes the similarity between two vectors v and w
+
+- The scalar product computes the ==similarity== between two vectors v and w
+
 ![[Pasted image 20230822182503.png]]
-vTw is often called projecting w onto v It is called scalar product because its result is a scalar.
+- vTw is often called projecting w onto v It is called scalar product because its result is a scalar.
+- ==Shows how much is w goes in the direction of v==
+
 ```python
 v = sp.array([[1.],[0.5]]) 
-u = v * 2 u.T.dot(v) 
-array([[ 2.5]]) 
+u = v * 2
+# first option
+u.T.dot(v) 
+# second option
 sp.inner(u.T,v.T) 
-array([[ 2.5]])
+
+# both result: 2 * 1 + 1 * 0.5 = 2.5
 ```
 
 ## Outer product
@@ -54,10 +65,12 @@ The outer product takes two vectors and computes a matrix
 ![[Pasted image 20230822182945.png]]
 ```python
 v = sp.array([[1.],[0.5]]) 
-u = v * 2 u.dot(v.T) 
-array([[ 2. , 1. ], [ 1. , 0.5]]) 
+u = v * 2 
+# 1 option
+u.dot(v.T) 
+# 2 option
 sp.outer(u.T,v.T) 
-array([[ 2. , 1. ], [ 1. , 0.5]])
+#result: array([[ 2. , 1. ], [ 1. , 0.5]]) 
 ```
 
 
@@ -86,7 +99,7 @@ sqrt((v**2).sum())
 ![[Pasted image 20230823000235.png]]
 
 # Unit vectors
-Every vector v can be scaled to length 1 by
+Every vector v can be scaled to length 1 by dividing it by its length
 $$ v <- v/||v||$$
 This is useful because after normalizing each vector to unit length, our vector similarity measure v >w has a standardized meaning. 
 Just divide the vector by its scalar length(norm)
@@ -96,13 +109,14 @@ Just divide the vector by its scalar length(norm)
 # Angle between vectors 
 The scalar product of unit vectors is the **cosine of the angle between vectors** 
 ![[Pasted image 20230823001807.png]]
-
+ 
 # Angles between vectors and correlation coefficients
 
 The correlation coefficient between x and y is defined as
 ![[Pasted image 20230823002647.png]]
-
+It shows how is x correlated with y
 ## Example
+X ~ N(0, 1) - X is distributed according to Normal distribution with the 0 [[Mean]] and [[Standard deviation]] of [[Variance]] of 1
 ![[Pasted image 20230823002712.png]]
 
 ```python
@@ -118,7 +132,6 @@ figure(figsize=(5,5))
 plot(x.T,y.T,’.’) 
 title("r=%0.2f"%c) 
 savefig(’cors-python.pdf’)
-
 ```
 
 ## Pythagorean Theorem
@@ -126,13 +139,12 @@ savefig(’cors-python.pdf’)
 
 Vector types:
 - **==Orthogonal==** - perpendicular vectors
-- ==**Orthonormal**== - perpendicular unit vectors
+- [[Orthonormal vectors]] - perpendicular unit vectors
 
 
 ## Important Inequalities
 - [[Cauchy-Schwarz-Buniakowsky inequality]]
 - [[Triangle inequality]]
-
 
 # Axioms of Vector Operations
 - Associativity of addition 
