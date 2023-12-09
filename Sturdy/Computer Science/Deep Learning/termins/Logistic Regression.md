@@ -1,0 +1,3 @@
+Logistic regression is one of the most popular Machine Learning algorithms, which comes under the Supervised Learning technique. It is **used for predicting the categorical dependent variable using a given set of independent variables**. Logistic regression predicts the output of a categorical dependent variable.
+
+Logistic regression analysis is valuable for **predicting the likelihood of an event**. It helps determine the probabilities between any two classes. In a nutshell, by looking at historical data, logistic regression can predict whether: An email is a spam.

@@ -1,2 +1,8 @@
-Softmax is **a mathematical function that converts a vector of numbers into a vector of probabilities**, where the probabilities of each value are proportional to the relative scale of each value in the vector.
+The softmax [[activation function]] **transforms the raw outputs of the neural network into a vector of probabilities**, essentially a probability distribution over the input classes.
+
+![[Screen Shot 2023-09-27 at 08.36.50.png]]
+
+
+Softmax function converts the output scores in last layer (NN) into probabilities
+![[Screen Shot 2023-09-27 at 08.50.32.png]]
 

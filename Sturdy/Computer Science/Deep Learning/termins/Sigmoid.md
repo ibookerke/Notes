@@ -1,7 +1,4 @@
-Sigmoid function is just a representation of probability of a certain element to belong to a certain class provided by a model
+When the [[activation function]] for a neuron is a sigmoid function it is a guarantee that the output of this unit will always be between 0 and 1.
 
-For instance:
-We have a model that provides a function which returns a positive integer S 
-S belongs to (-inf; inf). The higher the S value -> the higher possibility of certain event to happen. 
 
-So, sigmoid function 
+![[Pasted image 20230927033140.png]]

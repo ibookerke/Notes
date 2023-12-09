@@ -1,2 +1,3 @@
-: **curved or rounded outward like the exterior of a sphere or circle**. b. : being a continuous function or part of a continuous function with the property that a line joining any two points on its graph lies on or above the graph.
 
+A function f (x) is convex if a line connecting two points f (x1), f (x2) lies above the graph:
+![[Screen Shot 2023-09-26 at 23.36.55.png]]

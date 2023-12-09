@@ -36,12 +36,10 @@ Where Ʌ - is a diagonal [[Eigenvalue]] matrix obtained from [[Matrix diagonaliz
 ![[Screen Shot 2023-09-19 at 16.17.38.png]]
 ![[Screen Shot 2023-09-19 at 16.19.36.png]]
 
-
 ## Symmetric matrices
 1) A [[symmetric matrix]] has only **real [[eigenvalue]]s**
 2) For [[Symmetric matrix]]es the [[eigenvector]]s can be chosen to be [[Orthonormal vectors]]
  
-
 ## Spectral theorem
 ![[Screen Shot 2023-09-19 at 19.20.54.png]] 
 ![[Screen Shot 2023-09-19 at 19.20.16.png]]

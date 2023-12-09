@@ -1,0 +1,2 @@
+Conv layer - convolutional layer
+A convolutional layer is **the main building block of a =[[CNN]]=**. It contains a set of [[filter]]s (or kernels), parameters of which are to be learned throughout the training. The size of the filters is usually smaller than the actual image. Each filter convolves with the image and creates an activation map.

@@ -1,0 +1,1 @@
+For supervised learning applications in machine learning and statistical learning theory, generalization error (also known as the out-of-sample error or the risk) is **a measure of how accurately an algorithm is able to predict outcome values for previously unseen data**.

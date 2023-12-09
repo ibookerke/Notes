@@ -1,0 +1,1 @@
+A machine learning model reaches convergence **when it achieves a state during training in which loss settles to within an error range around the final value**. In other words, a model converges when additional training will not improve the model.

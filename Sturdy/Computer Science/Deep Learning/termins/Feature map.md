@@ -1,0 +1,1 @@
+  In a convolutional neural network ([[CNN]]), feature maps are **the output of the convolutional layer after the convolution operation has occurred on an image passed to the convolutional layer**.
