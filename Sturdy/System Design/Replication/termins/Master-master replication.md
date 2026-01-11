@@ -1,0 +1,8 @@
+- **Description**: All nodes in the system can act as a master, allowing both reads and writes.
+- **Characteristics**:
+    - Changes made to one node are replicated to others.
+    - Allows simultaneous writes across multiple nodes.
+- **Use Case**: Multi-region systems with low latency requirements.
+- **Challenges**:
+    - Conflict resolution is necessary when multiple nodes modify the same data.
+    - Increased complexity compared to master-slave replication.

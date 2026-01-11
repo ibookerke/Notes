@@ -1,0 +1,7 @@
+- **Description**: The master commits transactions immediately and sends updates to replicas later.
+- **Characteristics**:
+    - Fast write operations on the master.
+    - Risk of temporary data inconsistency across replicas.
+- **Use Case**: Scenarios with high write throughput and tolerance for eventual consistency.
+- **Challenges**:
+    - Potential data loss during failover if replicas are behind.

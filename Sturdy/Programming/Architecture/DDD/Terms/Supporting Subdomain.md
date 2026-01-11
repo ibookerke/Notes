@@ -1,2 +1,0 @@
-The distinctive characteristic of supporting subdomains is the complexity of the solu‐ tion’s business logic. Supporting subdomains are simple. Their business logic resem‐ bles mostly data entry screens and ETL (extract, transform, load) operations; that is, the so-called CRUD (create, read, update, and delete) interfaces. These activity areas do not provide any competitive advantage for the company, and therefore do not require high entry barriers.
-

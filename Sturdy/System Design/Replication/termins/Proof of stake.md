@@ -1,0 +1,2 @@
+The other popular type of consensus algorithm is [proof of stake](https://www.fool.com/terms/p/proof-of-stake/). It involves validators staking their cryptocurrency, meaning they lock it up in a [wallet](https://www.fool.com/terms/b/blockchain-wallet/) for the right to verify transactions. If the protocol chooses you to add a block to the blockchain, then you can earn crypto rewards. But, if you try to approve invalid transactions, you'll lose some or all of your staked crypto.
+

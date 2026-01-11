@@ -1,0 +1,19 @@
+- **States in Raft**:
+    - **Follower**: Default state; waits for leader's instructions.
+    - **Candidate**: If a follower does not hear from a leader within a specified timeout, it transitions to a candidate state to initiate an election.
+    - **Leader**: Elected candidate that controls log replication.
+- **Election Timeout**:
+    - Followers wait for a random timeout (e.g., 150–300 ms). If no leader's heartbeat is received, they become candidates.
+- **Voting Process**:
+    - A candidate requests votes from other nodes by sending a `RequestVote` RPC to all peers.
+    - Nodes vote for the first candidate they receive a valid vote request from during an election term.
+    - A vote is granted if:
+        - The candidate's **log is at least as up-to-date** as the voter’s log (based on the term and index of the last entry).
+        - The node has not already voted for another candidate in the current term.
+- **Majority Rule**:
+    - A candidate becomes the leader if it receives votes from the majority of the cluster (e.g., 3 out of 5 nodes in a 5-node cluster).
+- **Leader Announcement**:
+    - Once elected, the leader sends heartbeat messages (`AppendEntries` RPC) to all followers to establish its authority and prevent new elections.
+- **Failure Handling**:
+    - If a leader fails or no candidate gains a majority, a new election is triggered after another timeout.
+

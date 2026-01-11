@@ -1,4 +1,0 @@
-To achieve its business domain’s goals and targets, a company has to operate in multi‐ ple subdomains. A subdomain is a fine-grained area of business activity. All of a com‐ pany’s subdomains form its business domain: the service it provides to its customers. Implementing a single subdomain is not enough for a company to succeed; it’s just one building block in the overarching system. The subdomains have to interact with each other to achieve the company’s goals in its business domain.
-
-
-For example, Star‐ bucks may be most recognized for its coffee, but building a successful coffeehouse chain requires more than just knowing how to make great coffee. You also have to buy or rent real estate at effective locations, hire personnel, and manage finances, among other activities. None of these subdomains on its own will make a profitable company. All of them together are necessary for a company to be able to compete in its business domain(s).
